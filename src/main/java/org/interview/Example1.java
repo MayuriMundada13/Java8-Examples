@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Example1 {
     public static List<Integer> getNumber() {
-        List<Integer> integerList = new ArrayList<>();
+        final List<Integer> integerList = new ArrayList<>();
         integerList.add(1);
         integerList.add(16);
         integerList.add(5);
