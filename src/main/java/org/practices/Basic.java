@@ -5,7 +5,7 @@ import java.util.List;
 
 //convert array list in stream using collect & forEach
 
-public class Example1 {
+public class Basic {
 
     public static List<String> convertArrayListInStream() {
         List<String> stringList = new ArrayList<>();

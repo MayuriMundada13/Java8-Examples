@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 //asking this example in Yash internal evaluation interview
 
-public class Example1 {
+public class YashInternal {
     public static List<Integer> getNumber() {
         final List<Integer> integerList = new ArrayList<>();
         integerList.add(1);
