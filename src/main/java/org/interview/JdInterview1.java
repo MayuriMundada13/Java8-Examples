@@ -3,7 +3,7 @@ package org.interview;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class JdInterview {
+public class JdInterview1 {
     public static void main(String[] args) {
         String input = "en_lawn_tractors";
         String[] s = input.split("_");
