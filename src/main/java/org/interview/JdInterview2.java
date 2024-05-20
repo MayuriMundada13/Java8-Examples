@@ -14,7 +14,7 @@ public class JdInterview2 {
         stringList.add("radhika");
 
         List<String> collect = stringList.stream()
-                .filter(name -> !name.isEmpty() && name.charAt(0) >= 'A' && name.charAt(0) <= 'Z')
+                .filter(name -> name.charAt(0) >= 'A' && name.charAt(0) <= 'Z')
                 .collect(Collectors.toList());
 
         System.out.println("Output = " + collect);
