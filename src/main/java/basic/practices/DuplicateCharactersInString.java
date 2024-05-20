@@ -1,4 +1,4 @@
-package org.practices;
+package basic.practices;
 
 import java.util.Arrays;
 import java.util.List;

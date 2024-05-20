@@ -1,22 +1,21 @@
-package org.interview;
+package basic.practices;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class JdInterview2 {
-
+public class FirstLetterOfString {
     public static void main(String[] args) {
         List<String> stringList = new ArrayList<>();
         stringList.add("Mayuri");
-        stringList.add("mundada");
-        stringList.add("Gauri");
-        stringList.add("radhika");
+        stringList.add("Mundada");
+        stringList.add("Pooja");
+        stringList.add("Java");
 
         List<String> collect = stringList.stream()
-                .filter(name -> name.charAt(0) >= 'A' && name.charAt(0) <= 'Z')
+                .map(name -> name.substring(0, 1))
                 .collect(Collectors.toList());
 
-        System.out.println("Output = " + collect);
+        System.out.println("First letter of string = " + collect);
     }
 }

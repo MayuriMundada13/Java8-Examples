@@ -1,4 +1,4 @@
-package org.practices;
+package basic.practices;
 
 public class Student {
     private int id;

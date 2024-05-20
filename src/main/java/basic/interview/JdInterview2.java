@@ -1,21 +1,22 @@
-package org.practices;
+package basic.interview;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class PrintEvenWorld {
+public class JdInterview2 {
+
     public static void main(String[] args) {
         List<String> stringList = new ArrayList<>();
         stringList.add("Mayuri");
-        stringList.add("Mundada");
+        stringList.add("mundada");
         stringList.add("Gauri");
-        stringList.add("Java");
+        stringList.add("radhika");
 
         List<String> collect = stringList.stream()
-                .filter(name -> name.length() % 2 == 0)
+                .filter(name -> name.charAt(0) >= 'A' && name.charAt(0) <= 'Z')
                 .collect(Collectors.toList());
 
-        System.out.println("Print even number string = " + collect);
+        System.out.println("Output = " + collect);
     }
 }

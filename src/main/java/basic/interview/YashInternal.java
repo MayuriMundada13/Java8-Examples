@@ -1,4 +1,4 @@
-package org.interview;
+package basic.interview;
 
 import java.util.ArrayList;
 import java.util.List;
