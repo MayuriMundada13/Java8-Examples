@@ -1,4 +1,4 @@
-package basic.practices;
+package basic.practices.string;
 
 public class Student {
     private int id;

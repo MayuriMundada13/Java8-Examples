@@ -1,4 +1,4 @@
-package basic.practices;
+package basic.practices.characters;
 
 import java.util.Arrays;
 

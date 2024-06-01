@@ -1,4 +1,4 @@
-package basic.practices;
+package basic.practices.numbers;
 
 import java.util.ArrayList;
 import java.util.List;
