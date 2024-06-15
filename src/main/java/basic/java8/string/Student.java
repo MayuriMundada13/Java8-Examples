@@ -1,4 +1,4 @@
-package basic.practices.string;
+package basic.java8.string;
 
 public class Student {
     private int id;

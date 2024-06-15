@@ -1,4 +1,4 @@
-package basic.practices.numbers;
+package basic.java8.numbers;
 
 import java.util.Arrays;
 

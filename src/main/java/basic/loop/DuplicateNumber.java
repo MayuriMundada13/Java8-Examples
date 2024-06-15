@@ -1,4 +1,4 @@
-package basic.normal;
+package basic.loop;
 
 import java.util.Arrays;
 import java.util.List;

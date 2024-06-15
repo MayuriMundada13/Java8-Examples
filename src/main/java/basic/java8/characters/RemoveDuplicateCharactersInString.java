@@ -1,4 +1,4 @@
-package basic.practices.characters;
+package basic.java8.characters;
 
 import java.util.Arrays;
 import java.util.HashSet;

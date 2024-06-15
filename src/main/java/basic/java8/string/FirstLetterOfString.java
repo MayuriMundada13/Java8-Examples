@@ -1,4 +1,4 @@
-package basic.practices.string;
+package basic.java8.string;
 
 import java.util.ArrayList;
 import java.util.List;
