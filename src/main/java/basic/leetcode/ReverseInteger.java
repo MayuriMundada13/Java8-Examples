@@ -10,10 +10,10 @@ public class ReverseInteger {
         while (x != 0) {
             int digit = x % 10;
             if (reverse > Integer.MAX_VALUE / 10 || (reverse == Integer.MAX_VALUE / 10 && digit > 7)) {
-                reverse = 0; // overflow condition
+                reverse = 0;
             }
             if (reverse < Integer.MIN_VALUE / 10 || (reverse == Integer.MIN_VALUE / 10 && digit < -8)) {
-                reverse = 0; // underflow condition
+                reverse = 0;
             }
             reverse = reverse * 10 + digit;
             x = x / 10;
